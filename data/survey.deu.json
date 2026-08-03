@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "hero": {
+      "title": "German - Cultural Knowledge",
+      "introduction": ""
+    },
+    "survey": {
+      "headline": "Step 1: Fill in your socio-demographic details",
+      "description": "Please provide us with your genuine data. If you like not to answer a question, leave the field's value with the default None. Of course, all your statements are voluntary and remain anonymous. You may find some options not exactly fitting your situation. If that is the case, choose the closest possible value. Note that we simplified the options regarding questions of gender, origin, and religion. That allows for a streamlined evaluation and is not meant to be discriminating. If you have ethical concerns, contact us directly.",
+      "contactMail": "muenker@uni-trier.de"
+    },
+    "annotation": {
+      "headline": "Step 2: Annotate the following samples",
+      "description": "For this task, you will be required to analyse each item and decide whether it requires cultural knowledge, awareness, background or similar, to understand. \n\nFor the purposes of this task, we understand culture as defined by Stalder (2018): culture refers to the dynamic processes through which social meaning is created, negotiated, and materialised in practices, institutions, and lifeworlds. It is not static or merely symbolic, but a contested field shaped by ongoing exchanges, disputes, and power relations that guide both collective and individual activity. Language is part of culture and the primary medium through which culture is expressed, shared, and adapted (Kim, 2003).\n\nReferences:\nF. Stalder, *The Digital Condition*, John Wiley & Sons, 2018.\nL. S. Kim, *Exploring the Relationship Between Language, Culture and Identity*, GEMA Online Journal of Language Studies 3 (2003)."
+    },
+    "submission": {
+      "headline": "Step 3: Submit the results",
+      "description": "After finishing the study, download your data to your local file system. We save results as a plain-text JSON file. Thus, interested ones can examine their file and inspect the collected data. We ask not to modify the contents as that would complicate evaluation. Finally, upload the received file to the cloud storage provided by the universities of Rhineland-Palatinate. We opt for the two stages approach to ensure data transparency and limit the usage of non-education service providers.",
+      "uploadUrl": "https://seafile.rlp.net/u/d/6580fe78450e4645a651/"
+    }
+  },
+  "survey": [
+    {
+      "id": "gender",
+      "label": "What is your gender identity?",
+      "description": "",
+      "options": ["None", "male", "female", "non-binary"]
+    },
+    {
+      "id": "age",
+      "label": "How old are you?",
+      "description": "",
+      "options": ["None", "below 18", "18-30", "31-45", "46-60", "above 60"]
+    },
+    {
+      "id": "region",
+      "label": "In which region you grew up?",
+      "description": "",
+      "options": [
+        "None",
+        "Deutschland",
+        "Deutschland: RLP",
+        "Deutschland: RLP: Trier & Saarburg",
+        "Deutschland: RLP: Eifelkreis Bitburg-Prüm",
+        "Deutschland: RLP: Vulkaneifel",
+        "Deutschland: RLP: Rhein-Hunsrück-Kreis",
+        "Deutschland: RLP: Bernkastel-Wittlich",
+        "Deutschland: RLP: Birkenfeld",
+        "Deutschland: RLP: Bad Kreuznach",
+        "Deutschland: SL",
+        "Deutschland: SL: Merzig-Wadern",
+        "Deutschland: SL: Saarlouis",
+        "Deutschland: SL: St. Wendel",
+        "Deutschland: SL: Regionalverband Saarbrücken"
+      ]
+    },
+    {
+      "id": "religion",
+      "label": "Which religious community do you belong to?",
+      "description": "",
+      "options": [
+        "None",
+        "Roman Catholic/Protestant",
+        "Orthodox (Russian/Greek)",
+        "Jew",
+        "Muslim",
+        "Hindu",
+        "Buddhist",
+        "Other"
+      ]
+    },
+    {
+      "id": "education",
+      "label": "What is your highest educational level?",
+      "description": "",
+      "options": [
+        "None",
+        "Primary school",
+        "Secondary School",
+        "Undergraduate",
+        "Postgraduate"
+      ]
+    },
+    {
+      "id": "employment_status",
+      "label": "What is your employment status?",
+      "description": "",
+      "options": [
+        "None",
+        "student",
+        "student & employee",
+        "full-time employee",
+        "part-time employee",
+        "self-employed",
+        "retired/pension",
+        "other"
+      ]
+    },
+    {
+      "id": "political_position",
+      "label": "How would you classify yourself in the political spectrum?",
+      "description": "",
+      "options": [
+        "None",
+        "far-left",
+        "left",
+        "centre-left",
+        "centre",
+        "centre-right",
+        "right",
+        "far-right"
+      ]
+    },
+    {
+      "id": "social_media_usage",
+      "label": "How often do you use social media?",
+      "description": "",
+      "options": [
+        "None",
+        "multiple times a day",
+        "once a day",
+        "3-4 times a week",
+        "1-2 times a week",
+        "3-4 times a month",
+        "1-2 times a month",
+        "less frequently"
+      ]
+    },
+    {
+      "id": "news_usage",
+      "label": "How often do you read news articles?",
+      "description": "",
+      "options": [
+        "None",
+        "multiple times a day",
+        "once a day",
+        "3-4 times a week",
+        "1-2 times a week",
+        "3-4 times a month",
+        "1-2 times a month",
+        "less frequently"
+      ]
+    }
+  ],
+  "annotation": [
+    {
+      "id": "requires_cultural_knowledge",
+      "label": "Requires Cultural Knowledge?",
+      "description": "",
+      "options": ["None", "Yes", "No"]
+    }
+  ],
+  "samples": [
+    { "id": "1", "features": [{ "label": "text", "content": "Bitte, wieso gibt es keinen Kulturnewsletter? Interessiert das sonst niemanden?" }] },
+    { "id": "2", "features": [{ "label": "text", "content": "Frauen glauben, dass sie es können .." }] },
+    { "id": "3", "features": [{ "label": "text", "content": "grün-wähler, was wunder..." }] },
+    { "id": "4", "features": [{ "label": "text", "content": "Ich würd' ja sehr gerne, aber mein Arbeitgeber Saudi Arabien lässt keinen Nebenjob zu, selbst wenn nicht jeden Freitag geköpft wird..." }] },
+    { "id": "5", "features": [{ "label": "text", "content": "Bereits seit Februar dieses Jahres ist klar, dass die veraltete und größtenteils leer stehende Treviris-Passage nicht weiter vor sich hin gammeln, sondern nach Jahren der Planung endlich umgebaut und saniert werden soll." }] },
+    { "id": "6", "features": [{ "label": "text", "content": "Es müssen nicht immer zwei Wasserschäden und eine abgesackte Brücke sein wie Anfang Juli 2025, um in Trier Verkehrschaos zu verursachen." }] },
+    { "id": "7", "features": [{ "label": "text", "content": "Die stadtauswärtige Fahrspur der Kaiser-Wilhelm-Brücke wird in der Nacht von Donnerstag auf Freitag, 20. auf 21. November 2025, wegen Bauarbeiten von 20 bis 3 Uhr voll gesperrt." }] },
+    { "id": "8", "features": [{ "label": "text", "content": "Zur Auswahl stehen das Eiscafé Livian in der Burgstraße, das Eiscafé da Beppo „Mohr“ am Pariser Platz und Salvas Ice Cream Store direkt am Platz an der Lieser." }] },
+    { "id": "9", "features": [{ "label": "text", "content": "Wasn da bei kia los, zuerst der sportage und jetzt das?" }] },
+    { "id": "10", "features": [{ "label": "text", "content": "Auf mündliche Nachfrage des Linken-Abgeordneten Marc Baum hin, sagte der Arbeitsminister, wenn Luxemburg nach einem der „Beispiele“ aus der Direktive verfahren wollte (also 60% des Medianlohns), dann könnten die Gehälter aus bestimmten Sektoren nicht einfach ausgeschlossen werden." }] },
+    { "id": "11", "features": [{ "label": "text", "content": "Zwischenzeitlich hatte es Gerüchte über eine Regierungsumbildung gegeben die der Premierminister Luc Frieden inzwischen dementiert hat." }] },
+    { "id": "12", "features": [{ "label": "text", "content": "Großtenteils könne die Direktive bestehen bleiben." }] },
+    { "id": "13", "features": [{ "label": "text", "content": "Im Stadtgebiet von Luxemburg gibt es mehr als 23.000 Bäume." }] },
+    { "id": "14", "features": [{ "label": "text", "content": "Wenn neue Bäume gepflanzt werden, entscheidet die Abteilung von Charel Faust welche Bäume gepflanzt werden." }] },
+    { "id": "15", "features": [{ "label": "text", "content": "Oppositionelle LSAP fordert sofortige Erhöhung des Mindestlohns" }] },
+    { "id": "16", "features": [{ "label": "text", "content": "Kann mir auch keiner erzählen, dass hier im Sinne des Verbraucherschutzes gehandelt wird. Das was hier passiert ist reiner Kulturkampf, mehr nicht. Jede normaldenkende Person, egal ob Veganer oder nicht, weiß das." }] },
+    { "id": "17", "features": [{ "label": "text", "content": "Da willste dir genüsslich nen Mettwurst-Smoothie reinziehen und erhältst stattdessen diese ekelhafte Orangen-Cellulose-Pampe" }] },
+    { "id": "18", "features": [{ "label": "text", "content": "Und erst recht Zahnpasta, weder Zähne noch Nudeln drin !" }] },
+    { "id": "19", "features": [{ "label": "text", "content": "Die Bärchenwurst finde ich auch verwerflich. Babybären in der Wurst, nein." }] },
+    { "id": "20", "features": [{ "label": "text", "content": "Klapp' die Antworten auf diesen Kommentar auf, um zum Text des Artikels zu kommen." }] },
+    { "id": "21", "features": [{ "label": "text", "content": "Leiste meinen Teil und habe ab Januar jeden Freitag frei." }] },
+    { "id": "22", "features": [{ "label": "text", "content": "Jeder sollte eigentlich wissen, dass es dieser Partei nur um Macht geht und nicht darum, die richtige Politik zu machen." }] },
+    { "id": "23", "features": [{ "label": "text", "content": "Und sowas ist Kanzler. Widerlich." }] },
+    { "id": "24", "features": [{ "label": "text", "content": "Sobald die Babyboomer abgenippelt sind ist die Union also endgültig beendet, wenn es nach Merz geht?" }] },
+    { "id": "25", "features": [{ "label": "text", "content": "Er gesteht sogar ein, dass das System am Ende ist, aber der Rentenentwurf jetzt der Schritt der Reformen ist - dafuq?" }] },
+    { "id": "26", "features": [{ "label": "text", "content": "Das Haus Gonner ist das „Kabeischen“ in Rümelingen." }] },
+    { "id": "27", "features": [{ "label": "text", "content": "Wo ist der Humpen für die Schlacke?" }] },
+    { "id": "28", "features": [{ "label": "text", "content": "Immer weiter alles im Wandel!" }] },
+    { "id": "29", "features": [{ "label": "text", "content": "Der Minett Trail, das sind 90 Kilometer Natur und Geschichte." }] },
+    { "id": "30", "features": [{ "label": "text", "content": "Die Reise des Riesen kann man selbst nacherleben." }] }
+  ]
+}

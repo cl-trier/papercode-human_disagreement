@@ -1,0 +1,24 @@
+[project]
+name = "cultural-annotation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Simon Münker", email = "muenker@uni-trier.de" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.5",
+    "polars>=1.43.2",
+    "pyarrow>=25.0.0",
+    "rich>=15.0.0",
+    "statsmodels>=0.14.6",
+    "vllm>=0.26.0",
+]
+
+[project.scripts]
+cultural-annotation = "cultural_annotation:main"
+
+[build-system]
+requires = ["uv_build>=0.8.11,<0.9.0"]
+build-backend = "uv_build"

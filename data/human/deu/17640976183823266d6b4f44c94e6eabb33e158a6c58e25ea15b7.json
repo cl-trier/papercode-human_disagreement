@@ -1,0 +1,312 @@
+{
+    "survey": [
+        {
+            "id": "gender",
+            "response": "female"
+        },
+        {
+            "id": "age",
+            "response": "18-30"
+        },
+        {
+            "id": "region",
+            "response": "Deutschland: RLP: Trier & Saarburg"
+        },
+        {
+            "id": "religion",
+            "response": "None"
+        },
+        {
+            "id": "education",
+            "response": "Secondary School"
+        },
+        {
+            "id": "employment_status",
+            "response": "student"
+        },
+        {
+            "id": "political_position",
+            "response": "centre-left"
+        },
+        {
+            "id": "social_media_usage",
+            "response": "multiple times a day"
+        },
+        {
+            "id": "news_usage",
+            "response": "once a day"
+        }
+    ],
+    "annotations": [
+        {
+            "id": "1",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "No"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "annotations": [
+                {
+                    "id": "requires_cultural_knowledge",
+                    "response": "Yes"
+                }
+            ]
+        }
+    ]
+}
