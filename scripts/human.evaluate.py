@@ -3,7 +3,6 @@ import json
 
 import pandas
 import polars
-
 import rich
 from statsmodels.stats.inter_rater import fleiss_kappa
 
@@ -13,16 +12,17 @@ SAMPLES: list[str] = ["lux", "deu"]
 for sample in SAMPLES:
     print(f"Evaluating Language: {sample}")
 
-    raw = [json.loads(open(file).read()) for file in glob.glob(f"data/human/{sample}/*.json")]
-    # rich.print(raw[0]["survey"])
-    # rich.print(raw[0]["annotations"])
+    raw = [
+        json.loads(open(file).read())
+        for file in glob.glob(f"data/human/{sample}/*.json")
+    ]
 
     demographics = pandas.concat(
         [pandas.DataFrame(row["survey"]).set_index("id").T for row in raw]
     ).reset_index(drop=True)
-    # rich.print(demographics.head())
+    rich.print(demographics.head())
 
-    # rich.print(demographics["employment_status"].value_counts())
+    rich.print(demographics["employment_status"].value_counts())
 
     annotations = (
         pandas.concat(
@@ -46,16 +46,19 @@ for sample in SAMPLES:
         .drop(columns=["id"])
         .pipe(lambda _df: _df.assign(sample=_df["sample"].str.zfill(2)))
     )
-    # rich.print(annotations)
 
     annotations_wide = (
         annotations.groupby("sample")["response"]
         .value_counts()
         .reset_index()
-        .pivot(index="sample", columns="response", values="count")[["Yes", "No", "None"]]
+        .pivot(index="sample", columns="response", values="count")[
+            ["Yes", "No", "None"]
+        ]
         .fillna(0)
         .sort_index()
     )
 
-    print(polars.from_pandas(annotations_wide).describe())
-    print(f"{fleiss_kappa(annotations_wide.to_numpy(), method="randolph")=}")
+    polars.from_pandas(annotations_wide).describe().write_csv(
+        f"reports/evaluate.human.{sample}.csv"
+    )
+    rich.print(f"{fleiss_kappa(annotations_wide.to_numpy(), method="randolph")=}")

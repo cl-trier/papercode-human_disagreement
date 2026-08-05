@@ -19,4 +19,5 @@ for sample in SAMPLES:
     )
 
     print(data_agg.describe())
+    data_agg.describe().write_csv(f"reports/evaluate.model.{sample}.csv")
     print(f"{fleiss_kappa(data_agg.to_numpy(), method="randolph")=}")

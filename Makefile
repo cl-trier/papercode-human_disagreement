@@ -1,3 +1,3 @@
 evaluate:
-	python scripts/model.evaluate.py > reports/evaluate.model.txt
-	python scripts/human.evaluate.py > reports/evaluate.human.txt
+	uv run scripts/model.evaluate.py > reports/evaluate.model.txt
+	uv run scripts/human.evaluate.py > reports/evaluate.human.txt
